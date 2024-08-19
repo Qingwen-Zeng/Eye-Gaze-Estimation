@@ -24,11 +24,10 @@ The project structure is as follows:
 - `train_face_au.csv`
 - `val_au.csv`
 
-**Output:**
+**Output:**: MSE and Angular Error plot, True value VS Predicted value scatter plot
 - `val_result_CNN.csv`
 - `best_gaze_cnn_model.pth`
-- MSE and Angular Error plot
-- True value VS Predicted value scatter plot
+
 
 ### SVR
 **Script:** `Gaze_Estimation_SVR.py`
@@ -39,12 +38,11 @@ The project structure is as follows:
 - `train_face_au.csv`
 - `val_au.csv`
 
-**Output:**
+**Output:**: MSE and Angular Error plot, True value VS Predicted value scatter plot
 - `val_result_SVR.csv`
 - `svr_model_y.pkl`
 - `svr_model_x.pkl`
-- MSE and Angular Error plot
-- True value VS Predicted value scatter plot
+
 
 ## Eye Gaze Impact in Face Recognition
 
@@ -84,9 +82,9 @@ The project structure is as follows:
 - `val_au`
 - `comparison_scores.csv`
 
-**Output:**
+**Output:** Plot of Loss and Accuracy changes in Face Recognition process 
 - `all_predictions.csv`
-- Plot of Loss and Accuracy changes in Face Recognition process 
+
 
 ### EDC
 **Script:** `EDC.py`
