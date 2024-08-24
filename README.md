@@ -1,6 +1,6 @@
 # Evaluation of Eye Gaze Estimation Methods and Their Impact on Face Recognition Performance
 
-In this project, we evaluated the performance of Convolutional Neural Networks (CNN) and Support Vector Regression (SVR) in the eye gaze estimation task and the impact of eye gaze on face recognition accuracy.
+In this project, we evaluated the performance of Convolutional Neural Networks (CNN) and Support Vector Regression (SVR) in the eye gaze estimation task and the impact of eye gaze on face recognition accuracy(EDC).
 The project structure is as follows:
 ## Data Augmentation
 **Script:** `Data_Augmentation.py`
