@@ -12,7 +12,8 @@ the limitation of sample size, we train the two models and evaluate their perfor
 eye gaze estimation.
 In addition, we study the effect of gaze quality on face recognition accuracy using error
 versus discarded characteristic (EDC) curves. The EDC curves plotted by plotting gaze
-strength as a quality score provide insights into the effectiveness of maintaining recognition accuracy under different gaze strength conditions.\\
+strength as a quality score provide insights into the effectiveness of maintaining recognition accuracy under different gaze strength conditions.
+
 The project structure is as follows:
 ## Data Augmentation
 **Script:** `Data_Augmentation.py`
