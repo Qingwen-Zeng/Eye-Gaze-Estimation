@@ -15,6 +15,7 @@ versus discarded characteristic (EDC) curves. The EDC curves plotted by plotting
 strength as a quality score provide insights into the effectiveness of maintaining recognition accuracy under different gaze strength conditions.
 
 **Data:**
+
 Google Drive: https://drive.google.com/drive/folders/1F_K1Xc9a8g-O0CBDe7F3JBomN0kyhY7t?usp=sharing
 
 The project structure is as follows:
