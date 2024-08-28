@@ -1,6 +1,18 @@
 # Evaluation of Eye Gaze Estimation Methods and Their Impact on Face Recognition Performance
 
-In this project, we evaluated the performance of Convolutional Neural Networks (CNN) and Support Vector Regression (SVR) in the eye gaze estimation task and the impact of eye gaze on face recognition accuracy(EDC).
+Gaze estimation is an important topic in biometrics, and accurate prediction of
+gaze direction can improve the performance of face recognition systems. In this study,
+we focus on comparing the performance of two gaze estimation methods: Convolutional
+Neural Networks (CNN) and Support Vector Regression (SVR), and test the effect of eye
+gaze on face recognition through the Error and Discard Characteristic (EDC) curves.
+CNN models use deep learning techniques to automatically extract features from images,
+providing strong predictability for gaze estimation. On the other hand, the traditional machine learning method SVR transforms the input data into a high-dimensional space to
+capture complex patterns with the ability to fit nonlinear problems. By leveraging the labeled faces in the wild (LFW) dataset and applying data augmentation to break through
+the limitation of sample size, we train the two models and evaluate their performance in
+eye gaze estimation.
+In addition, we study the effect of gaze quality on face recognition accuracy using error
+versus discarded characteristic (EDC) curves. The EDC curves plotted by plotting gaze
+strength as a quality score provide insights into the effectiveness of maintaining recognition accuracy under different gaze strength conditions.
 The project structure is as follows:
 ## Data Augmentation
 **Script:** `Data_Augmentation.py`
